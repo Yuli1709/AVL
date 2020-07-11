@@ -1,0 +1,61 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : jan 25, 2019, 16:05:00 p.m.
+    Author     : GaryBarzola
+*/
+.myButton{
+    -fx-text-decoration: none;
+    -fx-padding: 4px;
+    -fx-font-weight: 600;
+    -fx-font-size: 20px;
+    -fx-text-fill: #ffffff;
+    -fx-background-color: #1883ba;
+    -fx-border-radius: 3px;
+    -fx-border-color: #1883ba;
+}
+
+.myButton:hover {
+    -fx-cursor: hand;
+    -fx-text-fill:#1883ba;
+    -fx-background-color:ffffff;
+}
+
+#contenido:hover{
+    -fx-cursor: hand;
+    -fx-background-color:#CFDCDC;
+}
+
+.boton-crear{
+    -fx-text-decoration: none;
+    -fx-padding: 7px;
+    -fx-font-weight: 600;
+    -fx-font-size: 18px;
+    -fx-text-fill: #ffffff;
+    -fx-background-color: #ff0081;
+    -fx-border-radius: 4px;
+    -fx-border-color: #ff0081;
+}
+
+.boton-crear:hover {
+    -fx-cursor: hand;
+    -fx-text-fill:#ff0081;
+    -fx-background-color: #ffffff;
+}
+
+.cursor:hover{
+    -fx-cursor: hand;
+}
+
+.lfiltro{
+    -fx-font-size: 16px;
+    -fx-text-fill: #000000;
+    -fx-border-bottom-color: #B7C2C2;
+}
+
+.lfiltro:hover{
+    -fx-border-bottom-color: #ff0081; 
+}
